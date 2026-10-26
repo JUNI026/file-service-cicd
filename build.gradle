@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.example'
-version = '1.5.0'
+version = '1.6.0'
 description = 'file-service'
 
 java {
@@ -49,7 +49,7 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
-// /actuator/info 의 build 항목(version · time)을 만듦. 배포 후 "어느 버전이 떠 있나"를 여기서 확인함.
+// /actuator/info 의 build 항목(version · time)을 만듦. 배포 후 "어느 버전이 떠 있나"를 여기서 확인함
 springBoot {
     buildInfo()
 }
