@@ -10,6 +10,7 @@ ECS 가 POST_TEST_TRAFFIC_SHIFT 단계에서 이 함수를 부름.
   BASE_URL      https://www.<student_id>.cldlab.click
   WAIT_SECONDS  첫 호출 뒤 기다릴 초 (기본 60 · 0 이면 바로 검사)
   FORCE_FAIL    "true" 면 검사 단계에서 일부러 실패 (롤백 시연용)
+
 """
 import json, os, time
 import urllib.request, urllib.error
